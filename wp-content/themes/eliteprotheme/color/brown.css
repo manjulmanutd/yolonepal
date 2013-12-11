@@ -1,0 +1,60 @@
+.main-container-wrapper {
+    border-top:6px solid #d8b788;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+    border-top:1px solid #ffba00;
+    padding:8px 17px 8px 17px;
+    background:url(images/menu-tip-brown.png) top center no-repeat;
+    color:#b68f58;
+    text-shadow: 0 1px 0 #ede3d5;
+}
+#menu .ddsmoothmenu li ul {
+    border-top:4px solid #d8b788;
+}
+.flex-caption {
+    background:#f9eede;
+}
+.flexslider .slides span{
+    color:#b68f58;
+}
+.flex-control-nav li a{
+    background: url('images/pagination-brown.png') no-repeat 0 0;
+}
+.flex-control-nav li a:hover {
+    background: url('images/pagination-brown.png') no-repeat 0 -14px;
+}
+.flex-control-nav li a.active {
+    background: url('images/pagination-brown.png') no-repeat 0 -14px;
+}
+.searchform {
+    background:url(images/search-bg-brown.png) no-repeat;
+}
+.searchform input[type="submit"] {
+    background:url(images/search-brown.png) no-repeat;
+}
+.content-bar .post .post_meta a:hover{
+    color:#b68f58;
+}
+.content-bar .post .read_more {
+    color:#b68f58;
+}
+#contactForm input[type="submit"] {
+    background:#b68f58;
+}
+.gallery .thumbnail li img:hover{
+    border:10px solid #b68f58;
+}
+.sidebar ul li a:hover{
+    color:#d67a02;
+    text-shadow:0 0.5px 0 #ede3d5;
+}
+.footer-wrapper .footer-top .footer ul li a:hover{
+    color:#b68f58;
+}
+.footer-wrapper .footer a:hover{
+    color:#b68f58;
+}
+
+#respond input[type="submit"] {
+background: #b68f58;
+}

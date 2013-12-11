@@ -1,0 +1,59 @@
+.main-container-wrapper {
+    border-top:6px solid #f96604;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+    border-top:1px solid #f96604;
+    background:url(images/menu-tip-orange.png) top center no-repeat;
+    color:#e05a01;
+    padding:8px 17px 8px 17px;
+    text-shadow: 0 1px 0 #f7d6bf;
+}
+#menu .ddsmoothmenu li ul {
+    border-top:4px solid #f96604;
+}
+.flex-caption {
+    background:#f7e5d9;
+}
+.flexslider .slides span{
+    color:#e05a01;
+}
+.flex-control-nav li a{
+    background: url('images/pagination-orange.png') no-repeat 0 0;
+}
+.flex-control-nav li a:hover {
+    background: url('images/pagination-orange.png') no-repeat 0 -14px;
+}
+.flex-control-nav li a.active {
+    background: url('images/pagination-orange.png') no-repeat 0 -14px;
+}
+.searchform {
+    background:url(images/search-bg-orange.png) no-repeat;
+}
+.searchform input[type="submit"] {
+    background:url(images/search-orange.png) no-repeat;
+}
+.content-bar .post .post_meta a:hover{
+    color:#e05a01;
+}
+.content-bar .post .read_more {
+    color:#e05a01;
+}
+#contactForm input[type="submit"] {
+    background:#f96604;
+}
+.gallery .thumbnail li img:hover{
+    border:10px solid #f96604;
+}
+.sidebar ul li a:hover{
+    color:#e05a01;
+    text-shadow:0 0.5px 0 #f7d6bf;
+}
+.footer-wrapper .footer-top .footer ul li a:hover{
+    color:#e05a01;
+}
+.footer-wrapper .footer a:hover{
+    color:#e05a01;
+}
+#respond input[type="submit"] {
+ background:#f96604;
+}

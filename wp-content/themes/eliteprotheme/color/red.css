@@ -1,0 +1,59 @@
+.main-container-wrapper {
+    border-top:6px solid #af2905;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+    border-top:1px solid #af2905;
+    background:url(images/menu-tip-red.png) top center no-repeat;
+    color:#af2905;
+    padding:8px 17px 8px 17px;
+    text-shadow: 0 1px 0 #ebc9c0;
+}
+#menu .ddsmoothmenu li ul {
+    border-top:4px solid #af2905;
+}
+.flex-caption {
+    background:#f2d3ca;
+}
+.flexslider .slides span{
+    color:#af2905;
+}
+.flex-control-nav li a{
+    background: url('images/pagination-red.png') no-repeat 0 0;
+}
+.flex-control-nav li a:hover {
+    background: url('images/pagination-red.png') no-repeat 0 -14px;
+}
+.flex-control-nav li a.active {
+    background: url('images/pagination-red.png') no-repeat 0 -14px;
+}
+.searchform {
+    background:url(images/search-bg-red.png) no-repeat;
+}
+.searchform input[type="submit"] {
+    background:url(images/search-red.png) no-repeat;
+}
+.content-bar .post .post_meta a:hover{
+    color:#af2905;
+}
+.content-bar .post .read_more {
+    color:#af2905;
+}
+#contactForm input[type="submit"] {
+    background:#af2905;
+}
+.gallery .thumbnail li img:hover{
+    border:10px solid #af2905;
+}
+.sidebar ul li a:hover{
+    color:#af2905;
+    text-shadow:0 0.5px 0 #ebc9c0;
+}
+.footer-wrapper .footer-top .footer ul li a:hover{
+    color:#af2905;
+}
+.footer-wrapper .footer a:hover{
+    color:#af2905;
+}
+#respond input[type="submit"] {
+ background:#af2905;
+}

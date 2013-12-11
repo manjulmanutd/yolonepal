@@ -1,0 +1,62 @@
+.main-container-wrapper {
+    border-top:6px solid #07aed8;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+    border-top:1px solid #07aed8;
+    background:url(images/menu-tip-blue.png) top center no-repeat;
+    color:#0894b7;
+    padding:8px 17px 8px 17px;
+    text-shadow: 0 1px 0 #c1e4ed;
+}
+#menu .ddsmoothmenu li ul {
+    border-top:4px solid #07aed8;
+}
+.flex-caption {
+    background:#cdf0f8;
+}
+.flexslider .slides span{
+    color:#0894b7;
+}
+.flex-control-nav li a{
+    background: url('images/pagination-blue.png') no-repeat 0 0;
+}
+.flex-control-nav li a:hover {    
+    background: url('images/pagination-blue.png') no-repeat 0 -14px;
+}
+.flex-control-nav li a.active {
+    background: url('images/pagination-blue.png') no-repeat 0 -14px;
+}
+.searchform {
+    background:url(images/search-bg-blue.png) no-repeat;
+}
+.searchform input[type="submit"] {
+    background:url(images/search-blue.png) no-repeat;
+}
+.content-bar .post .post_meta a:hover{
+    color:#0894b7;
+}
+.content-bar .post .read_more {
+    color:#0894b7;
+}
+#contactForm input[type="submit"] {
+    background:#07aed8;
+}
+.gallery .thumbnail li img:hover{
+    border:10px solid #07aed8;
+}
+.sidebar ul li a:hover{
+    color:#07aed8;
+    text-shadow:0 0.5px 0 #c1e4ed;
+}
+.footer-wrapper .footer-top .footer ul li a:hover{
+    color:#0894b7;
+}
+.footer-wrapper .footer a:hover{
+    color:#0894b7;
+}
+
+#respond input[type="submit"] {
+background: #07aed8;
+}
+
+

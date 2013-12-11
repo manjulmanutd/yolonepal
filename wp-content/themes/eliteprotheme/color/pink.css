@@ -1,0 +1,59 @@
+.main-container-wrapper {
+    border-top:6px solid #e12778;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+    border-top:1px solid #e12778;
+    background:url(images/menu-tip-pink.png) top center no-repeat;
+    color:#bc145e;
+    padding:8px 17px 8px 17px;
+    text-shadow: 0 1px 0 #eec4d7;
+}
+#menu .ddsmoothmenu li ul {
+    border-top:4px solid #e12778;
+}
+.flex-caption {
+    background:#fbe4ee;
+}
+.flexslider .slides span{
+    color:#bc145e;
+}
+.flex-control-nav li a{
+    background: url('images/pagination-pink.png') no-repeat 0 0;
+}
+.flex-control-nav li a:hover {
+    background: url('images/pagination-pink.png') no-repeat 0 -14px;
+}
+.flex-control-nav li a.active {
+    background: url('images/pagination-pink.png') no-repeat 0 -14px;
+}
+.searchform {
+    background:url(images/search-bg-pink.png) no-repeat;
+}
+.searchform input[type="submit"] {
+    background:url(images/search-pink.png) no-repeat;
+}
+.content-bar .post .post_meta a:hover{
+    color:#bc145e;
+}
+.content-bar .post .read_more {
+    color:#bc145e;
+}
+#contactForm input[type="submit"] {
+    background:#e12778;
+}
+.gallery .thumbnail li img:hover{
+    border:10px solid #e12778;
+}
+.sidebar ul li a:hover{
+    color:#bc145e;
+    text-shadow:0 0.5px 0 #eec4d7;
+}
+.footer-wrapper .footer-top .footer ul li a:hover{
+    color:#bc145e;
+}
+.footer-wrapper .footer a:hover{
+    color:#bc145e;
+}
+#respond input[type="submit"] {
+  background:#e12778;
+}
