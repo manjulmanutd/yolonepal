@@ -22,7 +22,7 @@ define('DB_NAME', 'db_yolonepal');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Manutd1234*');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
