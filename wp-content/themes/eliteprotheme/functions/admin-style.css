@@ -55,7 +55,7 @@
 	float: right;
 	height: 50px;
 	width: 178px;
-	background: url(images/inkthemeslogo.png) no-repeat;
+	/*background: url(images/inkthemeslogo.png) no-repeat; */
 	margin:15px 0 0;
 }
 #of_container #main {

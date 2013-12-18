@@ -13,7 +13,7 @@ Tags: black, blue, white, two-columns, fixed-width, threaded-comments, sticky-po
 @import url(css/prettyPhoto.css);
 @import url(css/shortcode.css);
 body {
-    font: 13px/1.7 Trebuchet MS, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    font: 12px/1.2 Trebuchet MS, Arial, 'Liberation Sans', FreeSans, sans-serif;
     background:url(images/main-bg.png) repeat;
     background-attachment:fixed;
     color:#5c5c5c;

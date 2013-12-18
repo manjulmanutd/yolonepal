@@ -4,7 +4,7 @@ if (!function_exists('of_options')) {
 
     function of_options() {
         // VARIABLES
-        $themename = 'Elite Pro Responsive Theme';
+        $themename = 'Responsive Theme';
         $shortname = "of";
         // Populate OptionsFramework option in array for use in theme
         global $of_options;
@@ -224,9 +224,10 @@ if (!function_exists('of_options')) {
             "std" => "",
             "type" => "text");
         /* ---------------------------------------------------------------------------- */
-        /* Homepage Feature Area */
+        /* Homepage Feature Area */ 
+        // uncomment to add feature
         /* ---------------------------------------------------------------------------- */
-        $options[] = array("name" => "Homepage Settings",
+        /*$options[] = array("name" => "Homepage Settings",
             "type" => "heading");
         //Homepage Main Heading 
         $options[] = array("name" => "Homepage Content Heading",
@@ -248,6 +249,7 @@ if (!function_exists('of_options')) {
             "std" => "",
             "type" => "select",
 			"options" => $options_categories);
+            */
         /* ---------------------------------------------------------------------------- */
         /* Social Logos */
         /* ---------------------------------------------------------------------------- */
