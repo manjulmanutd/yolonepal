@@ -1,4 +1,3 @@
-
 <div class="grid_sub_custom sub_alpha box_type" >
   <div class="footer_widget">
     <?php if (is_active_sidebar('first-footer-widget-area')) : ?>
