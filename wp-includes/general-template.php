@@ -37,6 +37,36 @@ function get_header( $name = null ) {
 }
 
 /**
+ * Load slider template.
+ *
+ * Includes the slider template for a theme or if a name is specified then a
+ * specialised header will be included.
+ *
+ * For the parameter, if the file is called "slider-special.php" then specify
+ * "special".
+ *
+ * @uses locate_template()
+ * @since 1.5.0
+ * @uses do_action() Calls 'get_slider' action.
+ *
+ * @param string $name The name of the specialised header.
+ */
+function get_slider( $name = null ) {
+	do_action( 'get_slider', $name );
+
+	$templates = array();
+	$name = (string) $name;
+	if ( '' !== $name )
+		$templates[] = "slider-{$name}.php";
+
+	$templates[] = 'slider.php';
+
+	// Backward compat code will be removed in a future release
+	if ('' == locate_template($templates, true))
+		load_template( ABSPATH . WPINC . '/theme-compat/slider.php');
+}
+
+/**
  * Load footer template.
  *
  * Includes the footer template for a theme or if a name is specified then a
