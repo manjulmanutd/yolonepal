@@ -1,17 +1,17 @@
 .main-container-wrapper {
-    border-top:6px solid #414141;
+/*     border-top:6px solid #414141; */
 }
 #menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
-    border-top:1px solid #414141;
-    background:url(images/menu-tip-black.png) top center no-repeat;
-    color:#000000;
-    text-shadow: 0 1px 0 #bfbfbf;
+/*     border-top:1px solid #414141; */
+/*     background:url(images/menu-tip-black.png) top center no-repeat; */
+/*     color:#000000; */
+/*     text-shadow: 0 1px 0 #bfbfbf; */
 }
 #menu .ddsmoothmenu li ul {
     border-top:4px solid #414141;
 }
 .flex-caption {
-    background:#e7e5e5;
+    background:#111;
 }
 .flexslider .slides span{
     color:#000000;

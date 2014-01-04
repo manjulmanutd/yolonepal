@@ -97,6 +97,8 @@ list-style:none;
 
 <div class="clear"></div>
 
+<?php get_slider(); ?>
+
 
 <div class="wrapper">
 				        
