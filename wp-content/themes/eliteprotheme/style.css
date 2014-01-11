@@ -71,12 +71,9 @@ ol li {
 
 .main-container-wrapper {
     background-color:#fff;
-/*     overflow:hidden; */
-/*     border-top:6px solid #800038; */
 /*     moz-box-shadow:0px 1px 2px #aaa; */
 /*     -webkit-box-shadow:0px 1px 8px #aaa; */
 /*     box-shadow:0px 1px 2px #aaa; */
-/*     margin-bottom:40px; */
 }
 
 header .main-container-wrapper{
@@ -100,12 +97,6 @@ header{
 	margin-bottom:20px;
 /* 	background-image: url(bn.png); */
 	background-size:cover;
-	
-/* 	width:96%; */
-/* 	padding:0 2%; */
-/* 	height:60px; */
-/* 	background:#800038; */
-/* 	border-bottom:5px #000 solid; */
 }
 
 
@@ -130,11 +121,8 @@ header{
 }
 
 nav{
-/* 	float:right; */
-/* 	height:60px; */
-	
 	background:#800038; /* #CC398E; */
-	height:40px;
+	height:55px !important;
 	width:100%;
 	float:left;
 	border-top: 1px solid #A1305D;
@@ -165,7 +153,7 @@ nav{
 #menu {
     position:relative;
     z-index:1000;
-    height:40px;
+    height:55px;
 }
 #menu li {
     float:left;
@@ -176,7 +164,7 @@ nav{
 #menu li a {
     position:relative;
     float:left;
-    color:#302f2f;
+    color:#FFF;
     text-align:center;
     text-decoration:none;
     font-size:1em;
@@ -185,13 +173,14 @@ nav{
 /*     padding:9px 17px 8px 17px; */
 /*     text-shadow: 0 1px 0 #ddd; */
 }
-#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover {
+#menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected {
 /*     border-top:1px solid #ffba00; */
 /*     background:url(images/menu-tip.png) top center no-repeat; */
 /*     padding:8px 17px 8px 17px; */
 /*     color:#ffba00; */
 /*     text-shadow: 0 1px 0 #f2cf72; */
 /*     margin:0; */
+font-weight:bold;
 }
 #menu li li a, #menu li li a.selected, #menu li li a:hover {
     border:none;
@@ -206,7 +195,7 @@ nav{
 #menu li.current_page_item a:hover {
     }
 #menu .ddsmoothmenu {
-	height:40px;
+	height:55px;
 	margin:0 auto;
 /*     list-style:none; */
 /*     float:left; */
@@ -229,13 +218,13 @@ nav{
 #menu .ddsmoothmenu li a{
 	display: block;
 	float: left;
-	height: 40px;
+	height: 55px;
 	padding: 0 20px;
-	color: #CCC;
+	color: #FFF;
 	text-decoration: none;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1em;
-	line-height: 40px;
+/* 	font-family: Verdana, Arial, Helvetica, sans-serif; */
+	font-size: 1.3em;
+	line-height: 55px;
  	border-right: 1px solid #800014;   /* #A1305D; */
 	border-left: 1px solid #800062; /* #E88293; */
 }
@@ -245,7 +234,7 @@ nav{
 
 #menu .ddsmoothmenu li:last-child a{border-right: none !important;}
 
-#menu .ddsmoothmenu li  a:hover{color:#FFF}
+#menu .ddsmoothmenu li  a:hover{color:#FFF;}
 
 
 #menu .ddsmoothmenu li ul {
@@ -430,6 +419,7 @@ nav{
     margin-bottom:55px;
     margin-top:12px;
     box-shadow:0px 1px 2px #000;
+    background:#111;
 }
 
 .flexslider .slides > li {
@@ -439,13 +429,13 @@ nav{
 	position:relative;
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
 
-.flexslider .slides li .sub_omega{
-	position:absolute;
-	background: #000 !important;
-	right: 5%;
-	bottom: 5%;
-	opacity: .8;
-}
+/* .flexslider .slides li .sub_omega{ */
+/* 	position:absolute; */
+/* 	background: #000 !important; */
+/* 	right: 5%; */
+/* 	bottom: 5%; */
+/* 	opacity: .8; */
+/* } */
 
 .flexslider .slides img {
     width: 100%;
@@ -485,7 +475,7 @@ html[xmlns] .slides {
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {
-    background: #fff;
+/*     background: #111; */
     position: relative;
     zoom: 1;
 }
@@ -493,7 +483,7 @@ html[xmlns] .slides {
     zoom: 1;
 }
 .flexslider .slides > li {
-    position: relative;
+/*     position: relative; */
 	list-style-position:inside;
 }
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
@@ -502,39 +492,39 @@ html[xmlns] .slides {
     position: relative;
 }
 .flex-caption {
-    width: 96%;
-    position: relative;
+/*     width: 96%; */
+/*     position: absolute; */
     padding: 0%;
     margin: 0;
-    background: #000;
+/*     background: #000; */
     color: #FFF;
     /*text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);*/
     font-size: 14px;
     line-height: 18px;
-    padding-left:4%;
-    padding-right:4%;
+    padding-left:6%;
+    padding-right:6%;
     margin-bottom:0;
 	overflow:hidden;
-	height:auto !important;
+/* 	height:auto !important; */
 }
 .flexslider .slides span {
 	font-size:14px;
 	font-weight:bold;
 	color:#FFF;
-/* 	text-shadow: 0 1px 1px #fff; */
-/* 	position:absolute; */
-/* 	bottom:10px; */
-/* 	right:20px; */
 	text-transform:uppercase;
 	margin-top:5px; 
 	float:right;
 	margin-bottom:5px;
+	position:absolute;
+	bottom:5%;
+	right:2%;
 }
 
 .flex-caption h1{
-/*     padding-top:30px; */
 	text-transform:uppercase;
     color:#FFF;
+    line-height:32px;
+    margin:20px 0px;
 }
 .flex-caption p{
     line-height:22px;

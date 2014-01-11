@@ -12,14 +12,14 @@
 <div class="flexslider">
         <ul class="slides">
             <li>
-                <div class="grid_sub_24 sliders sub_alpha">
+                <div class="grid_sub_18 sliders sub_alpha">
                     <?php if (elite_get_option('elite_slideimage1') != '') { ?>
                         <a href="<?php echo elite_get_option('elite_slidelink1'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage1'); ?>" alt=""/></a>
                     <?php } else { ?>
                         <a href="#"><img  src="<?php echo get_template_directory_uri(); ?>/images/img-1.jpg" alt=""/></a>
                     <?php } ?>
                 </div>
-                <div class="grid_sub_12 sliders sub_omega">
+                <div class="grid_sub_6 sliders sub_omega">
                     <div class="flex-caption">
                          <?php if (elite_get_option('elite_sliderhead1') != '') { ?>
                             <h1><?php echo stripslashes(elite_get_option('elite_sliderhead1')); ?></h1>
@@ -43,13 +43,13 @@
             <!--End First Slider-->
             <?php if (elite_get_option('elite_slideimage2') != '') { ?>
                 <li>
-                    <div class="grid_sub_24 sliders sub_alpha">
+                    <div class="grid_sub_18 sliders sub_alpha">
                          <?php if (elite_get_option('elite_slideimage2') != '') { ?>
                             <a href="<?php echo elite_get_option('elite_slidelink2'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage2'); ?>" alt=""/></a>
                         <?php } else { ?>
                         <?php } ?>
                     </div>
-                    <div class="grid_sub_12 sliders sub_omega">
+                    <div class="grid_sub_6 sliders sub_omega">
                         <div class="flex-caption">
                              <?php if (elite_get_option('elite_sliderhead2') != '') { ?>
                                 <h1><?php echo stripslashes(elite_get_option('elite_sliderhead2')); ?></h1>
@@ -72,13 +72,13 @@
             <!--End Second Slider-->
           <?php if (elite_get_option('elite_slideimage3') != '') { ?>
                 <li>
-                    <div class="grid_sub_24 sliders sub_alpha">
+                    <div class="grid_sub_18 sliders sub_alpha">
                          <?php if (elite_get_option('elite_slideimage3') != '') { ?>
                             <a href="<?php echo elite_get_option('elite_slidelink3'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage3'); ?>" alt=""/></a>
                         <?php } else { ?>
                         <?php } ?>
                     </div>
-                    <div class="grid_sub_12 sliders sub_omega">
+                    <div class="grid_sub_6 sliders sub_omega">
                         <div class="flex-caption">
                              <?php if (elite_get_option('elite_sliderhead3') != '') { ?>
                                 <h1><?php echo stripslashes(elite_get_option('elite_sliderhead3')); ?></h1>
@@ -101,13 +101,13 @@
             <!--End Third Slider-->
            <?php if (elite_get_option('elite_slideimage4') != '') { ?>
                 <li>
-                    <div class="grid_sub_24 sliders sub_alpha">
+                    <div class="grid_sub_18 sliders sub_alpha">
                          <?php if (elite_get_option('elite_slideimage4') != '') { ?>
                             <a href="<?php echo elite_get_option('elite_slidelink4'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage4'); ?>" alt=""/></a>
                         <?php } else { ?>
                         <?php } ?>
                     </div>
-                    <div class="grid_sub_12 sliders sub_omega">
+                    <div class="grid_sub_6 sliders sub_omega">
                         <div class="flex-caption">
                              <?php if (elite_get_option('elite_sliderhead4') != '') { ?>
                                 <h1><?php echo stripslashes(elite_get_option('elite_sliderhead4')); ?></h1>
@@ -130,13 +130,13 @@
             <!--End Fourth Slider-->
            <?php if (elite_get_option('elite_slideimage5') != '') { ?>
                 <li>
-                    <div class="grid_sub_24 sliders sub_alpha">
+                    <div class="grid_sub_18 sliders sub_alpha">
                          <?php if (elite_get_option('elite_slideimage5') != '') { ?>
                             <a href="<?php echo elite_get_option('elite_slidelink5'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage5'); ?>" alt=""/></a>
                         <?php } else { ?>
                         <?php } ?>
                     </div>
-                    <div class="grid_sub_12 sliders sub_omega">
+                    <div class="grid_sub_6 sliders sub_omega">
                         <div class="flex-caption">
                              <?php if (elite_get_option('elite_sliderhead5') != '') { ?>
                                 <h1><?php echo stripslashes(elite_get_option('elite_sliderhead5')); ?></h1>
@@ -159,13 +159,13 @@
             <!--End Fifth Slider-->
             <?php if (elite_get_option('elite_slideimage6') != '') { ?>
                 <li>
-                    <div class="grid_sub_24 sliders sub_alpha">
+                    <div class="grid_sub_18 sliders sub_alpha">
                          <?php if (elite_get_option('elite_slideimage6') != '') { ?>
                             <a href="<?php echo elite_get_option('elite_slidelink6'); ?>"><img  src="<?php echo elite_get_option('elite_slideimage6'); ?>" alt=""/></a>
                         <?php } else { ?>
                         <?php } ?>
                     </div>
-                    <div class="grid_sub_12 sliders sub_omega">
+                    <div class="grid_sub_6 sliders sub_omega">
                         <div class="flex-caption">
                              <?php if (elite_get_option('elite_sliderhead6') != '') { ?>
                                 <h1><?php echo stripslashes(elite_get_option('elite_sliderhead6')); ?></h1>
