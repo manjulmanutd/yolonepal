@@ -121,7 +121,7 @@ header{
 }
 
 nav{
-	background:#800038; /* #CC398E; */
+	background:#d21f45; /* #800038; #CC398E; */
 	height:55px !important;
 	width:100%;
 	float:left;
@@ -174,13 +174,7 @@ nav{
 /*     text-shadow: 0 1px 0 #ddd; */
 }
 #menu li.current-menu-item a, #menu li.current_page_item a, #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected {
-/*     border-top:1px solid #ffba00; */
-/*     background:url(images/menu-tip.png) top center no-repeat; */
-/*     padding:8px 17px 8px 17px; */
-/*     color:#ffba00; */
-/*     text-shadow: 0 1px 0 #f2cf72; */
-/*     margin:0; */
-font-weight:bold;
+	font-weight:bold;
 }
 #menu li li a, #menu li li a.selected, #menu li li a:hover {
     border:none;
@@ -197,17 +191,10 @@ font-weight:bold;
 #menu .ddsmoothmenu {
 	height:55px;
 	margin:0 auto;
-/*     list-style:none; */
-/*     float:left; */
-/*     position:relative; */
-/*     z-index:10000; */
-/*     border-top:1px solid #e2e2e2; */
-/*     border-bottom:1px solid #e2e2e2; */
-/*     width:100%; */
-/*     margin:20px 0 0; */
-/*     padding:0; */
-/*     margin-top:0; */
-/*     margin-bottom:30px; */
+    list-style:none;
+    float:left;
+    position:relative;
+    z-index:10000;
 }
 
 #menu .ddsmoothmenu li{
@@ -225,8 +212,8 @@ font-weight:bold;
 /* 	font-family: Verdana, Arial, Helvetica, sans-serif; */
 	font-size: 1.3em;
 	line-height: 55px;
- 	border-right: 1px solid #800014;   /* #A1305D; */
-	border-left: 1px solid #800062; /* #E88293; */
+/*  	border-right: 1px solid #d21fFA;   #A1305D; */
+/* 	border-left: 1px solid #d21f00; #E88293; */
 }
 
 
@@ -416,10 +403,10 @@ font-weight:bold;
 .flexslider {
     margin: 0;
     padding: 0;
-    margin-bottom:55px;
+    margin-bottom:30px;
     margin-top:12px;
-    box-shadow:0px 1px 2px #000;
-    background:#111;
+/*     box-shadow:0px 1px 2px #000; */
+    background:#FEFEFE;
 }
 
 .flexslider .slides > li {
@@ -497,7 +484,7 @@ html[xmlns] .slides {
     padding: 0%;
     margin: 0;
 /*     background: #000; */
-    color: #FFF;
+    color: #111;
     /*text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);*/
     font-size: 14px;
     line-height: 18px;
@@ -510,7 +497,7 @@ html[xmlns] .slides {
 .flexslider .slides span {
 	font-size:14px;
 	font-weight:bold;
-	color:#FFF;
+	color:#111;
 	text-transform:uppercase;
 	margin-top:5px; 
 	float:right;
@@ -522,7 +509,7 @@ html[xmlns] .slides {
 
 .flex-caption h1{
 	text-transform:uppercase;
-    color:#FFF;
+    color:#88b828;
     line-height:32px;
     margin:20px 0px;
 }
@@ -539,11 +526,11 @@ html[xmlns] .slides {
 }
 
 .flex-caption a span{
-	color:#FFF !important;
+	color:#1BA1E2 !important;
 }
 
 .flex-caption .slider-readmore{
-    color:#FFF;
+    color:#111;
     font-weight:bold;
     float:right;
     margin-right:15px;
