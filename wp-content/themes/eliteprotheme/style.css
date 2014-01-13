@@ -675,13 +675,43 @@ html[xmlns] .slides {
     margin-bottom:15px;
 	
 }
+footer{
+	margin-top:20px;
+	width:100%;
+	float:left;
+	background:url(images/footer-bg.png) repeat;
+}
+
 .footer-wrapper {
     background:#fff url(images/footer-topline.png) top repeat-x;
     overflow:hidden;
     padding-top:2px;
     font-size:13px;
     color:#727171;
+    margin:aut0 0px;
 }
+
+.footer-nav{
+	margin:10px 0;
+	font-size:1.5em;
+}
+
+.footer-nav ul li{
+	display:block;
+	float:left;
+	margin-right:4px;
+	border-right:1px solid #CCC;
+	padding:0 5px;
+}
+
+.footer-nav ul li:last-child{
+	border-right:none;
+}
+
+.footer-nav ul li a:hover{
+	color:#1BA1E2;
+}
+
 .footer-wrapper .footer-top {
     padding:25px 30px;
     padding-bottom:0;
