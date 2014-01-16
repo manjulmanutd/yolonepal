@@ -73,6 +73,9 @@ ol li {
 h4.bglg{
 	background:#88b828 !important;
 }
+.widget_with_list hr{
+	display:none;	
+}
 
 .widget_with_list ul li{
 	display:block;
